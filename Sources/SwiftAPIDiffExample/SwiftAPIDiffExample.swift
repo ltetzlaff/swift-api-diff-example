@@ -17,7 +17,7 @@ public enum SwiftAPIDiffExample {
       public let exampleField: ExampleType = 123
 
       /// Some private field
-      private let shouldntBeVisibleField1: ExampleType = 456
+      private let shouldntBeVisibleField1: ExampleType = 123
 
       /// Some internal field
       internal let shouldntBeVisibleField2: ExampleType = 456
