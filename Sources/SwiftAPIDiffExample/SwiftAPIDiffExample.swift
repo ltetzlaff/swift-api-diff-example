@@ -14,7 +14,7 @@ public enum SwiftAPIDiffExample {
     /// Some exported struct
     public struct ExampleStruct {
       /// Some public field
-      public let exampleField: ExampleType = 789
+      public let exampleField: Float = 123.0
 
       /// Some private field
       private let shouldntBeVisibleField1: ExampleType = 456
@@ -30,8 +30,8 @@ public enum SwiftAPIDiffExample {
         case C
 
         /// Some public static method
-        public static func getExample() -> ExampleEnum {
-          return .B
+        public static func getExample() -> [ExampleEnum] {
+          return [.B, .A]
         }
     }
 }
